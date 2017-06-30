@@ -15,8 +15,9 @@ class AdminAuth
      */
     public function handle($request, Closure $next)
     {
-        if(Auth::user())
+        if(Auth::user()){
             return $next($request);
+        }
         else
             return redirect('login');
     }

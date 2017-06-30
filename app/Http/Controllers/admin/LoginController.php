@@ -15,16 +15,4 @@ class LoginController extends Controller {
         return \View::make('admin.templates.admin');
     }
 
-    public function doLogin(Request $request) {
-        $this->validate($request, [
-            'username' => 'required|max:30',
-            'password' => 'required',
-                ], [
-
-            'username.required' => ' The username field is required.',
-            'password.required' => ' The password field is required.',
-        ]);
-        dd($request->input('password'));
-    }
-
 }
