@@ -12,6 +12,7 @@
 
         <!-- Bootstrap CSS -->    
         <link href="{{ URL::asset('assets/admin/css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ URL::asset('assets/admin/css/urban-css.css') }}" rel="stylesheet">
         <!-- bootstrap theme -->
         <link href="{{ URL::asset('assets/admin/css/bootstrap-theme.css') }}" rel="stylesheet">
         <!--external css-->
@@ -34,6 +35,12 @@
         <link href="{{ URL::asset('assets/admin/css/xcharts.min.css') }}" rel=" stylesheet">	
         <link href="{{ URL::asset('assets/admin/css/jquery-ui-1.10.4.min.css') }}" rel="stylesheet">
 
+        <!-- javascripts -->
+        <script src="{{ URL::asset('assets/admin/js/jquery.js') }}"></script>
+        <script src="{{ URL::asset('assets/admin/js/jquery-ui-1.10.4.min.js') }}"></script>
+        <script src="{{ URL::asset('assets/admin/js/jquery-1.8.3.min.js') }}"></script>
+        <script type="text/javascript" src="{{ URL::asset('assets/admin/js/jquery-ui-1.9.2.custom.min.js') }}"></script>
+
     </head>
     <?php $isLogin = Auth::check(); ?>
     <body class="<?php if (!('null' !== $isLogin && $isLogin == 1)) echo 'login-img3-body'; ?>">    <!-- Add login class if user is not login -->
@@ -46,11 +53,7 @@
             <?php } ?>
             @yield('content')
         </section>
-        <!-- javascripts -->
-        <script src="{{ URL::asset('assets/admin/js/jquery.js') }}"></script>
-        <script src="{{ URL::asset('assets/admin/js/jquery-ui-1.10.4.min.js') }}"></script>
-        <script src="{{ URL::asset('assets/admin/js/jquery-1.8.3.min.js') }}"></script>
-        <script type="text/javascript" src="{{ URL::asset('assets/admin/js/jquery-ui-1.9.2.custom.min.js') }}"></script>
+
         <!-- bootstrap -->
         <script src="{{ URL::asset('assets/admin/js/bootstrap.min.js') }}"></script>
         <!-- nice scroll -->
