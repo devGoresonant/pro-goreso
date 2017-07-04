@@ -1,0 +1,50 @@
+﻿Online Tutor Dashboard Functionality breakdown
+
+1) Dashboard
+In dashboard, there will 4 tabs
+
+1. Enquiries:- This section will contain all the requiry history. User can review full details and contact him if he want.
+2. Contacted:- If user contact with student which have send enquiry then that enquiry will mark as contacted and will show in this list. Also there will be a option to set student converted or not. 
+3. Students:- Clicking on student converted from contacted list will add him/her as a student and will show in student list and remove from contacted list.
+4. Stand- Out:- This needs to discuss.
+
+2) Profile
+In profile, there will be too 4 tabs.
+1. Profile Information:- In this option, user can review and edit thier profile.
+2. Class Conduted :- In this, classes conduted by user will be show here. Also user can select “receive enquires or not” for each course.
+3. Reviews :- In this two options will show
+
+Invite for review:- Here user can invite anyone with email,phone no or share a unique URL which can be opened by anyone without login and share his/her review about that user.
+Manage reviews:- This needs to discuss.
+
+       4. Promote :- This needs to discuss.
+
+3) Courses :- In this section there wll be 4 tabs.
+
+1. Courses and workshops:- In this section, user can add detail of each course so students can come on your profile and can review the courses.
+2. Batches :- Here we can add batches of each course in detail.
+3. Venues:- In this section, user can add thier vanue of institute, home where tution conducted etc.
+4. Trainers:- In this section, user can add trainer, manage trainer.
+4) Payment collection:- This needs to discuss.
+
+5)  Community:- In this section, there will be following 5 tabs.
+
+1. Recent questions:- In this user can answr the question asked by students.
+2. Lessions:- Here a list of lessions wil show posted by another teacher, trainers.
+3. Post a question:- In this section user can post a lession.
+4. Invite Friends:- In this section, user can invite friends by email id or import from third arty services like gmail, hotmail etc.
+6)  Find Tutor or class:- In this section, trainer can find a class for himself. He will post his learning feed and get responses.
+
+7)  Account:- In this sectiom, there will 9 tabs.
+
+1. Membership:- This needs to discuss.
+2. Billing History:- All billing related transactions will listed here.
+3. Coins history:- All added, deducted etc coin history wll be listed here.
+4. Bank account:- In this section, user can add his bank account.
+5. Saved responses:- This needs to discuss.
+6. Enquiry Locations:- Here your can set enquiry locations. Only students having same location set by teacher, can send enquiry/
+7. GSTIN:-  This needs to discuss.
+8. Preferences:- In this section , teacher can manage various preferences like email, phone, SMS etc.
+9. Settings:- In this section, teacher can change password, make profile private and close jost account.
+
+8) Help Center:- In this section we will show basic questions with answers about site and usage tips of site.

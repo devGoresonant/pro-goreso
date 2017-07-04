@@ -1,3 +1,28 @@
+@font-face {
+    font-family: Avenir;
+    src: url('../fonts/Avenir-Book-dc217461761194809e7eb87c70c99171.eot');
+    src: url('../fonts/Avenir-Book-dc217461761194809e7eb87c70c99171.eot?#iefix') format('embedded-opentype'), url('../fonts/Avenir-Book-0dba966d49cccaed9a7dab73bd4e9263.woff2') format('woff2'), url('fonts/Avenir-Book-b3b29ade48242e6176b52e12a5850900.woff') format('woff'), url('fonts/Avenir-Book-4f9804a7e558a4ecaabf8f77b4b4f48d.ttf') format('truetype'), url('fonts/Avenir-Book-7a7fa67bd65c30581a7a3b5bfa6c0ed6.svg#Avenir-Book') format('svg');
+}
+@font-face {
+    font-family: Avenir;
+    src: url('../fonts/Avenir-Medium-a339747e74f218440667e9ff841ed440.eot');
+    src: url('../fonts/Avenir-Medium-a339747e74f218440667e9ff841ed440.eot?#iefix') format('embedded-opentype'), url('../fonts/Avenir-Medium-35ef1bd4ed0335f1d35a0313afca474d.woff2') format('woff2'), url('fonts/Avenir-Medium-b9a37201ae97fedf35769d4ff5a669d6.woff') format('woff'), url('fonts/Avenir-Medium-5714e1138112d27b75f8157b53fb80ac.ttf') format('truetype'), url('fonts/Avenir-Medium-60e981aa803c71f7fa28dafd21f93b1b.svg#Avenir-Medium') format('svg');
+    font-weight: 600;
+}
+@font-face {
+    font-family: Avenir;
+    src: url('../fonts/Avenir-Heavy-817f2e678182c90e3b455d4274e4b104.eot');
+    src: url('../fonts/Avenir-Heavy-817f2e678182c90e3b455d4274e4b104.eot?#iefix') format('embedded-opentype'), url('../fonts/Avenir-Heavy-3b17456c39f42b31c4abf20051fe6357.woff2') format('woff2'), url('fonts/Avenir-Heavy-666a018cbf73557fcbdb09290a032c72.woff') format('woff'), url('fonts/Avenir-Heavy-ba3128c9c9f7ecda101667f0e30ef982.ttf') format('truetype'), url('fonts/Avenir-Heavy-15729bb30528c3ba081f966cdb51ea0f.svg#Avenir-Heavy') format('svg');
+    font-weight: bold;
+}
+@font-face {
+    font-family: Avenir;
+    src: url('../fonts/Avenir-Black-f5eeb95ccfe6e2ef1a205c5bbc6bb8ec.eot');
+    src: url('../fonts/Avenir-Black-f5eeb95ccfe6e2ef1a205c5bbc6bb8ec.eot?#iefix') format('embedded-opentype'), url('../fonts/Avenir-Black-07974e477e7bb508d09310620d217f6c.woff2') format('woff2'), url('fonts/Avenir-Black-0bc04f12594a7a35e6d6ab03d89c2d59.woff') format('woff'), url('fonts/Avenir-Black-a53fb29e59cc5c6f73cac853827e0947.ttf') format('truetype'), url('fonts/Avenir-Black-bd3f5d4dad7ba0f8bbc3a5bad6494eeb.svg#Avenir-Black') format('svg');
+    font-weight: 900;
+}
+
+
 
 .framework {
     margin: 0 auto;
@@ -2550,11 +2575,11 @@ textarea.upTextarea {
 @charset "UTF-8";
 @font-face {
     font-family: "urbanpro";
-    src:url("urbanpro-e562fa8ac8565b3d4b3d3bbfd4d9266e.eot");
-    src:url("urbanpro-e562fa8ac8565b3d4b3d3bbfd4d9266e.eot#iefix") format("embedded-opentype"),
-    url("urbanpro-a77afacbdd949fd68bdf5dc875cdd7e8.woff") format("woff"),
-    url("urbanpro-889ae63dd5f9d96f5923d8d81dec7e2c.ttf") format("truetype"),
-    url("urbanpro-4af79823a604c70bd2699b83bfa63391.svg#urbanpro") format("svg");
+    src:url("../fonts/urbanpro-e562fa8ac8565b3d4b3d3bbfd4d9266e.eot");
+    src:url("../fonts/urbanpro-e562fa8ac8565b3d4b3d3bbfd4d9266e.eot#iefix") format("embedded-opentype"),
+    url("../fonts/urbanpro-a77afacbdd949fd68bdf5dc875cdd7e8.woff") format("woff"),
+    url("../fonts/urbanpro-889ae63dd5f9d96f5923d8d81dec7e2c.ttf") format("truetype"),
+    url("../fonts/urbanpro-4af79823a604c70bd2699b83bfa63391.svg#urbanpro") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -8480,3 +8505,6 @@ body {
         top: initial;
     }
 }
+
+
+

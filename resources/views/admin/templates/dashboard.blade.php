@@ -1841,6 +1841,12 @@
         jQuery("#tabs").tabs();
     });
 </script>
+<style>
+    
+    .proScoreHead {
+  height: 86px;
+}
+</style>
 
 <!--main content end-->
 @stop
